@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>To-Do List 📝</h1>
+      <h1>To-Do List... 📝</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} deleteTodo={deleteTodo} />
       <button onClick={clearTodos}>Clear All</button>
