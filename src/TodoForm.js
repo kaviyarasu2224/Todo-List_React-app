@@ -13,8 +13,6 @@ function TodoForm({ addTodo }) {
       setInput('');
     }
   };
-
-
   return (
     <form onSubmit={handleSubmit}>
       <input
