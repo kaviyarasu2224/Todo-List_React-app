@@ -4,7 +4,6 @@ import TodoList from './TodoList';
 import './App.css';
 
 function App() {
-
   const [todos, setTodos] = useState(() => {
     const savedTodos = localStorage.getItem('todos');
     return savedTodos ? JSON.parse(savedTodos) : [];
